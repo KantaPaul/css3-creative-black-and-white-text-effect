@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.wraper {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 50%, #000000 50%, #000000 100%);
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 10em;
+    margin: 0;
+    /* background-image: linear-gradient(to right, #000000 0%, #000000 50%, #FFFFFF 50%, #FFFFFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: white;
+    mix-blend-mode: difference;
+}
